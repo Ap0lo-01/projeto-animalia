@@ -1,1 +1,1 @@
-# projeto-animalia (CSS e HTML)
+# Projeto-Animalia (CSS e HTML)
