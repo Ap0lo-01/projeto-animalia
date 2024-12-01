@@ -1,1 +1,40 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="p-4 bg-red-500 text-white text-center">
+        <h1 class="text-3xl">Contato</h1>
+    </header>
+    <nav class="flex justify-center space-x-4 p-4 bg-red-200">
+        <a href="index.html" class="hover:text-red-700">Home</a>
+        <a href="about.html" class="hover:text-red-700">Sobre os Filos</a>
+        <a href="contact.html" class="hover:text-red-700">Contato</a>
+    </nav>
+    <main class="p-8">
+        <h2 class="text-2xl font-bold mb-4">Entre em Contato</h2>
+        <form>
+            <div class="mb-4">
+                <label class="block text-sm font-bold mb-2" for="name">Nome</label>
+                <input class="w-full p-2 border border-gray-300 rounded" type="text" id="name" placeholder="Seu nome">
+            </div>
+            <div class="mb-4">
+                <label class="block text-sm font-bold mb-2" for="email">Email</label>
+                <input class="w-full p-2 border border-gray-300 rounded" type="email" id="email" placeholder="Seu email">
+            </div>
+            <div class="mb-4">
+                <label class="block text-sm font-bold mb-2" for="message">Mensagem</label>
+                <textarea class="w-full p-2 border border-gray-300 rounded" id="message" placeholder="Sua mensagem" rows="4"></textarea>
+            </div>
+            <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-700" type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer class="p-4 bg-red-500 text-white text-center">
+        &copy; 2024 Reino Animalia
+    </footer>
+</body>
+</html>
